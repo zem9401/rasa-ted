@@ -43,7 +43,7 @@ stories:
   - intent: bot_challenge
   - action: utter_iamabot
   - intent: start_count
-  - action: utter_10_coun
+  - action: utter_10_count
   - intent: confirm
   - action: utter_9_count
   - intent: confirm
@@ -74,7 +74,7 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: start_count
-  - action: utter_10_coun
+  - action: utter_10_count
   - intent: bot_challenge
   - action: utter_iamabot
   - action: utter_9_count
@@ -149,6 +149,33 @@ stories:
   - intent: confirm
   - action: utter_5_count
   - intent: confirm
+  - action: utter_4_count
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: utter_3_count
+  - intent: goodbye
+  - action: utter_goodbye
+- story: interrupt path 5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: start_count
+  - action: utter_10_count
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: utter_9_count
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: utter_8_count
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: utter_7_count
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: utter_6_count
+  - intent: stop
+  - action: utter_5_count
+  - intent: stop
   - action: utter_4_count
   - intent: bot_challenge
   - action: utter_iamabot
