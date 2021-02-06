@@ -21,7 +21,7 @@ policies:
   - name: TEDPolicy
     max_history: 10
     epochs: 100
-  - name: MappingPolicy
+  - name: RulePolicy
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
