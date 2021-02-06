@@ -78,6 +78,8 @@ responses:
     - text: "嗯呢。不用客气~"
     - text: "这是我应该做的，主人~"
     - text: "嗯嗯，合作愉快！"
+    - text: "能帮助您，是我的荣幸~"
+  utter_
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60

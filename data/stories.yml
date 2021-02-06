@@ -164,21 +164,21 @@ stories:
   - intent: bot_challenge
   - action: utter_iamabot
   - action: utter_9_count
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: asking
+  - action: utter_wrong_business
   - action: utter_8_count
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: asking
+  - action: utter_wrong_business
   - action: utter_7_count
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: asking
+  - action: utter_wrong_business
   - action: utter_6_count
   - intent: stop
   - action: utter_5_count
   - intent: stop
   - action: utter_4_count
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: deny
+  - action: utter_chitchat
   - action: utter_3_count
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: thanks
+  - action: utter_answer_thanks
